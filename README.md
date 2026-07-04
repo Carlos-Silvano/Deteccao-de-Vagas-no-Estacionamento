@@ -1,6 +1,6 @@
 # Detecção de Vagas de Estacionamento com RT-DETR e YOLO no Dataset PKLot 🚗🅿️
 
-Este repositório contém a implementação, treinamento e avaliação comparativa de modelos de Deep Learning voltados para a detecção de objetos aplicada ao monitoramento de estacionamentos inteligentes. O foco principal deste projeto foi avaliar o desempenho do modelo **RT-DETR-L** (Real-Time Detection Transformer) frente às variantes **YOLOv8 (Nano, Small e Medium)** utilizando o dataset público **PKLot**.
+Este repositório contém a implementação, treinamento e avaliação comparativa de modelos de Deep Learning voltados para a detecção de objetos aplicada ao monitoramento de estacionamentos inteligentes. O foco principal deste projeto foi avaliar o desempenho do modelo **RT-DETR-L** (Real-Time Detection Transformer) frente às variantes **YOLOv26 (Nano, Small e Medium)** utilizando o dataset público **PKLot**.
 
 ---
 Como Reproduzir este Projeto:
@@ -18,9 +18,9 @@ Este projeto propõe uma abordagem de detecção de objetos de ponta a ponta par
 
 ### Modelos Avaliados:
 * **RT-DETR-L**: Um modelo baseado em Transformers voltado para tempo real.
-* **YOLOv8n (Nano)**: Modelo extremamente leve, focado em dispositivos embarcados e baixa latência.
-* **YOLOv8s (Small)**: Um meio-termo ideal entre velocidade e precisão.
-* **YOLOv8m (Medium)**: Modelo mais robusto com maior capacidade de extração de características.
+* **YOLOv26n (Nano)**: Modelo extremamente leve, focado em dispositivos embarcados e baixa latência.
+* **YOLOv26s (Small)**: Um meio-termo ideal entre velocidade e precisão.
+* **YOLOv26m (Medium)**: Modelo mais robusto com maior capacidade de extração de características.
 
 ---
 
@@ -43,7 +43,7 @@ O pipeline de dados deste repositório inclui um script automático para convert
 
 ## ⚙️ Infraestrutura e Pipeline de Treinamento
 
-O treinamento do modelo RT-DETR-L foi realizado utilizando um ambiente de supercomputação em cluster acadêmico com gerenciamento de filas **SLURM**, fazendo uso de aceleração por GPU **NVIDIA Tesla A100 (16GB)**.
+O treinamento do modelo RT-DETR-L foi realizado utilizando um ambiente de supercomputação em cluster acadêmico com gerenciamento de filas **SLURM**, fazendo uso de aceleração por GPU **NVIDIA Tesla A100**.
 
 O pipeline estruturado no Jupyter Notebook executa os seguintes passos:
 1. Instalação de dependências (`ultralytics`, `pycocotools`, `kaggle`).
