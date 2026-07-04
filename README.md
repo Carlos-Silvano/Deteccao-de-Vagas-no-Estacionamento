@@ -94,7 +94,6 @@ Matriz de Confusão RT-DETR
 | **YOLOv26m** | ~25.9M | ~78.9 | 0.995 | 0.993 |
 | **RT-DETR-L** | **32.8M** | **108.0** | 0.993 | 0.660 |
 
-*(Nota: Complete os dados da tabela acima com os valores finais obtidos nas últimas linhas do arquivo `results.csv` de cada respectivo modelo).*
 
 ### Análise Visual das Detecções
 
