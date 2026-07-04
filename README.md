@@ -66,23 +66,30 @@ Abaixo está o gráfico comparativo da perda total de treinamento acumulada entr
 ### Matriz de Confusão e Métricas Finais
 Para validar a precisão de cada modelo no conjunto de testes do PKLot, avaliou-se o comportamento das curvas de precisão, revocação e mAP (Mean Average Precision).
 
-Matriz de Confusão RT-DETR
+### Matriz de Confusão RT-DETR
 <p>
   
   <img src="confusion_matrix_RT.png" alt="Matriz de Confusão RT-DETR" width="75%">
 </p>
 
-  Matriz de Confusão Yolo26n
+  ### Matriz de Confusão Yolo26n
   <p>
   <img src="confusion_matrix_Yolo26n.png" alt="Matriz de Confusão Yolo26n" width="75%">
   </p>
-  Matriz de Confusão Yolo26s
+
+  ### Matriz de Confusão Yolo26s
   <p>
   <img src="confusion_matrix_Yolo26s.png" alt="Matriz de Confusão Yolo26s" width="75%">
   </p>
-  Matriz de Confusão Yolo26m
+
+  ### Matriz de Confusão Yolo26m
   <p>
   <img src="confusion_matrix_Yolo26m.png" alt="Matriz de Confusão Yolo26m" width="75%">
+  </p>
+
+  ### Evolução das metricas durante os treinos
+  <p>
+  <img src="metricas.png" alt="Metricas nos treinos" width="75%">
   </p>
   
 
