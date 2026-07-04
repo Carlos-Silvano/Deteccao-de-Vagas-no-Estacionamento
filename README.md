@@ -68,20 +68,20 @@ Para validar a precisão de cada modelo no conjunto de testes do PKLot, avaliou-
 Matriz de Confusão RT-DETR
 <p>
   
-  <img src="confusion_matrix_RT.png" alt="Matriz de Confusão RT-DETR" width="45%">
+  <img src="confusion_matrix_RT.png" alt="Matriz de Confusão RT-DETR" width="75%">
 </p>
 
   Matriz de Confusão Yolo26n
   <p>
-  <img src="confusion_matrix_Yolo26n.png" alt="Matriz de Confusão Yolo26n" width="45%">
+  <img src="confusion_matrix_Yolo26n.png" alt="Matriz de Confusão Yolo26n" width="75%">
   </p>
   Matriz de Confusão Yolo26s
   <p>
-  <img src="confusion_matrix_Yolo26s.png" alt="Matriz de Confusão Yolo26s" width="45%">
+  <img src="confusion_matrix_Yolo26s.png" alt="Matriz de Confusão Yolo26s" width="75%">
   </p>
   Matriz de Confusão Yolo26m
   <p>
-  <img src="confusion_matrix_Yolo26m.png" alt="Matriz de Confusão Yolo26m" width="45%">
+  <img src="confusion_matrix_Yolo26m.png" alt="Matriz de Confusão Yolo26m" width="75%">
   </p>
   
 
