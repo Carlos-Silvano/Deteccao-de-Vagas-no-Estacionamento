@@ -61,25 +61,38 @@ Abaixo está o gráfico comparativo da perda total de treinamento acumulada entr
 <p align="center">
   <img src="comparacao_loss_treino.png" alt="Comparação de Loss de Treinamento" width="75%">
 </p>
-<p align="center"><em>Substitua a imagem acima pelo arquivo "comparacao_loss_treino.png" gerado pelo notebook de comparações.</em></p>
 
 ### Matriz de Confusão e Métricas Finais
 Para validar a precisão de cada modelo no conjunto de testes do PKLot, avaliou-se o comportamento das curvas de precisão, revocação e mAP (Mean Average Precision).
 
-<p align="center">
-  <img src="runs/detect/train-4/confusion_matrix.png" alt="Matriz de Confusão RT-DETR" width="45%">
-  <img src="runs/detect/train-4/results.png" alt="Resultados RT-DETR" width="45%">
+Matriz de Confusão RT-DETR
+<p>
+  
+  <img src="confusion_matrix_RT.png" alt="Matriz de Confusão RT-DETR" width="45%">
 </p>
-<p align="center"><em>Gráficos de desempenho interno obtidos para o RT-DETR-L ao final das 100 épocas.</em></p>
+
+  Matriz de Confusão Yolo26n
+  <p>
+  <img src="confusion_matrix_Yolo26n.png" alt="Matriz de Confusão Yolo26n" width="45%">
+  </p>
+  Matriz de Confusão Yolo26s
+  <p>
+  <img src="confusion_matrix_Yolo26s.png" alt="Matriz de Confusão Yolo26s" width="45%">
+  </p>
+  Matriz de Confusão Yolo26m
+  <p>
+  <img src="confusion_matrix_Yolo26m.png" alt="Matriz de Confusão Yolo26m" width="45%">
+  </p>
+  
 
 ### Tabela Resumo de Desempenho
 
 | Modelo | Parâmetros | GFLOPs | mAP50 (Val) | mAP50-95 (Val) |
 | :--- | :---: | :---: | :---: | :---: |
-| **YOLOv8n** | ~3.2M | ~8.7 | *Insira Aqui* | *Insira Aqui* |
-| **YOLOv8s** | ~11.2M | ~28.6 | *Insira Aqui* | *Insira Aqui* |
-| **YOLOv8m** | ~25.9M | ~78.9 | *Insira Aqui* | *Insira Aqui* |
-| **RT-DETR-L** | **32.8M** | **108.0** | *Insira Aqui* | *Insira Aqui* |
+| **YOLOv26n** | ~3.2M | ~8.7 | 0.994 | 0.940 |
+| **YOLOv26s** | ~11.2M | ~28.6 | 0.995 | 0.980 |
+| **YOLOv26m** | ~25.9M | ~78.9 | 0.995 | 0.993 |
+| **RT-DETR-L** | **32.8M** | **108.0** | 0.993 | 0.660 |
 
 *(Nota: Complete os dados da tabela acima com os valores finais obtidos nas últimas linhas do arquivo `results.csv` de cada respectivo modelo).*
 
