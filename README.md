@@ -33,7 +33,8 @@ O **PKLot** dataset consiste em imagens capturadas de diferentes estacionamentos
   * **Treino:** 8.691 imagens (com arquivos de cache para acesso rápido)
   * **Validação:** 2.483 imagens
   * **Teste:** 1.242 imagens
-* **Classes:** * `0`: Vazio (Space-empty)
+* **Classes:** 
+  * `0`: Vazio (Space-empty)
   * `1`: Ocupado (Space-occupied)
 
 O pipeline de dados deste repositório inclui um script automático para converter as anotações originais de formato **COCO (JSON)** para o formato adequado **YOLO (TXT)**.
